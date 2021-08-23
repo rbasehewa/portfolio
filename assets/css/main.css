@@ -33,6 +33,16 @@ body {
 	line-height: 1;
 }
 
+/* 
+section.head.latest {
+color: #18bfef;
+} */
+ 
+section b{
+	color: red;
+}
+
+
 ol, ul {
 	list-style: none;
 }
