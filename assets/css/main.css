@@ -37,6 +37,22 @@ body {
 section.head.latest {
 color: #18bfef;
 } */
+
+
+section.skills.latest b{
+color: purple;
+font-weight: 600;
+}
+
+section.skills.aboutme b{
+	color: purple;
+	font-weight: 600;
+}
+
+section.skills.experiences b{
+	color: purple;
+	font-weight: 600;
+}
  
 section b{
 	color: black;
@@ -4253,6 +4269,7 @@ input, select, textarea {
 					-ms-align-items: center;
 					align-items: center;
 					padding: 3.15rem 4rem;
+					font-weight: 600;
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4302,9 +4319,14 @@ input, select, textarea {
 						}
 
 		#footer form label,
-		#footer h3,
+		#footer h3 {
+			color: purple;
+			font-size: 0.8rem;
+			font-weight: 600;
+		};
 		#footer p {
 			font-size: 0.8rem;
+			font-weight: 600;
 		}
 
 		@media screen and (max-width: 980px) {
